@@ -35,7 +35,7 @@ console.log(fun3(total));
 //       console.log("false");
 //     }
 //   }
-// return mass2;
+//   return mass2;
 // };
 
 // console.log(fun4(4)); // true
@@ -48,3 +48,42 @@ const fun5 = function (a) {
 
 console.log(fun5(4));
 console.log(fun5(3));
+
+//6 function
+function add(a = 2, b = 2) {
+  return a + b;
+}
+
+//7
+let array = [1, 3, 2, 5, 4];
+let max = array[0];
+let find = function (array) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > max) {
+      max = array[i];
+    }
+  }
+  return max;
+}
+console.log(find(array));
+
+//8
+// let name = 'kirill';
+const hello2 = function (name) {
+  return `привіт! ${name}`;
+}
+
+console.log(hello2('Василь'));
+
+//9
+let total = 0;
+const incomeSumm = function (n, m) {
+  for (element of incomeSumm) {
+    summ = n + m;
+    dob = n * m;
+    ris = n - m;
+  }
+return 
+}
+
+console.log();
